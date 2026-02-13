@@ -21,7 +21,7 @@
               class="navbar navbar-expand-lg bg-light shadow-sm py-3 fixed-top"
             >
               <div class="container">
-                <a class="navbar-brand fw-bold fs-3 text-primary" href="#home">
+                <a class="navbar-brand fw-bold fs-3 text-primary" href="/">
                   ✈️ TravelSpot
                 </a>
 
@@ -40,7 +40,7 @@
                 >
                   <ul class="navbar-nav gap-lg-4">
                     <li class="nav-item">
-                      <a class="nav-link" href="#home">Home</a>
+                      <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#features">Features</a>
@@ -49,12 +49,15 @@
                       <a class="nav-link" href="#destinations">Destinations</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                      <a class="nav-link" href="#contact-section">Contact</a>
                     </li>
                   </ul>
                 </div>
 
-                <a href="#" class="btn btn-primary d-none d-lg-block">
+                <a
+                  href="#contact-section"
+                  class="btn btn-primary d-none d-lg-block"
+                >
                   Book Now
                 </a>
               </div>
@@ -80,7 +83,7 @@
                       globe. From serene beaches to thrilling adventures — your
                       dream destination awaits.
                     </p>
-                    <div class="mt-4">
+                    <div class="mt-4 hero-section-btns">
                       <a
                         href="#destinations"
                         class="btn btn-primary btn-lg px-4 me-3"
@@ -88,7 +91,7 @@
                         Explore Destinations
                       </a>
                       <a
-                        href="#contact"
+                        href="#contact-section"
                         class="btn btn-outline-dark btn-lg px-4"
                       >
                         Plan My Trip
@@ -301,14 +304,76 @@
               </div>
             </section>
 
-            <div class="container" id="contact">
-              <div class="row">
-                <div class="col-12">
-                  <h1>Test heading</h1>
+            <section id="contact-section" class="contact-section">
+              <div class="container">
+                <div class="contact-wrapper">
+                  <div class="contact-text">
+                    <h4>Get In Touch</h4>
+                    <h2>Plan Your Next Journey</h2>
+                    <p>
+                      Have questions or want updates about our latest travel
+                      destinations? Send us a message and we’ll get back to you.
+                    </p>
+                  </div>
+
+                  <div class="contact-form">
+                    <form method="get">
+                      <input
+                        type="text"
+                        name="text"
+                        placeholder="Your Name"
+                        required
+                      />
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                      <textarea
+                        rows="5"
+                        placeholder="Your Message"
+                        name="message"
+                        required
+                      ></textarea>
+                      <button type="submit">Send Message</button>
+                    </form>
+                  </div>
                 </div>
               </div>
-            </div>
+            </section>
           </main>
+          <footer class="footer">
+            <div class="container footer-grid">
+              <div>
+                <h3>✈️ TravelSpot</h3>
+                <p>
+                  Explore the world with confidence. We bring unforgettable
+                  travel experiences to your fingertips.
+                </p>
+              </div>
+
+              <div>
+                <h5>Quick Links</h5>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#destinations">Destinations</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <h5>Contact</h5>
+                <p>Email: support@travelspot.com</p>
+                <p>Phone: +91 98765 43210</p>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>© 2026 TravelSpot. All Rights Reserved.</p>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
