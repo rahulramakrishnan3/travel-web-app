@@ -22,3 +22,18 @@ body {
   transform: scale(1.05);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
+
+.feature-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+  font-size: 32px;
+}
