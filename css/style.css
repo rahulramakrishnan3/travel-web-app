@@ -186,6 +186,31 @@ body {
   }
 }
 
+.github-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #111;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  z-index: 999;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.github-float:hover {
+  transform: scale(1.1);
+  background-color: #333;
+}
+
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
